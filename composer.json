@@ -1,0 +1,25 @@
+{
+    "name": "yevheniigrabar/acme-widged-co",
+    "description": "trial task",
+    "type": "project",
+    "require": {
+        "phpstan/phpstan-phpunit": "^1.4",
+        "friendsofphp/proxy-manager-lts": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yevheniigrabar\\AcmeWidgedCo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yevhenii",
+            "email": "yevheniigrabar@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.3",
+        "phpstan/phpstan": "^1.11"
+    }
+}
